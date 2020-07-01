@@ -17,6 +17,9 @@ int main(int argc, char const *argv[])
     strcpy(client1.Id, "000000001");
     client1.Credit = 1000; 
     strcpy(client1.Address, "Calle1, Carrera 1; Bogotá");
-    printf("Client Name is %s", client1.Name);
+    printf("Client Name is %s \n", client1.Name);
+    printf("Client Id is %s \n", client1.Name);
+    printf("Client Credit is %f \n", client1.Name);
+    printf("Client Address is %s \n", client1.Name);
     return 0;
 }
