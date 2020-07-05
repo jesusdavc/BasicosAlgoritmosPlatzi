@@ -4,7 +4,7 @@
 
 let vector= [100 ,0 ,5 ,-1 ,60 ,70 ,14 ,15 ,10 ,1992]
 let n = vector.length
-
+console.log(vector)
 const change_pos = (vector_entry, n1 ,n2) => {
     let temp = vector_entry[n2]
     vector_entry[n2] = vector_entry[n1]
@@ -19,12 +19,8 @@ const bubbleSort = (vector_entry, n) => {
             }
         }
     }
-}
-
-const print_array = (vector_entry, n) =>{;
-    for(let i=0; i<n; i++){
-        console.log(vector_entry[i] + ',')
-    }
+    console.log(vector_entry)
 }
 bubbleSort(vector,n)
-print_array(vector, n)
+
+
